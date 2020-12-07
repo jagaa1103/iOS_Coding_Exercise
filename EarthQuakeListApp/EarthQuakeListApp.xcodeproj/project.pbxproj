@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		357018A8257E83B600FC2964 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357018A7257E83B600FC2964 /* AppDelegate.swift */; };
+		357018B1257E83B800FC2964 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 357018B0257E83B800FC2964 /* Assets.xcassets */; };
+		357018B4257E83B800FC2964 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 357018B2257E83B800FC2964 /* LaunchScreen.storyboard */; };
+		357018BF257E83B800FC2964 /* EarthQuakeListAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357018BE257E83B800FC2964 /* EarthQuakeListAppTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		357018BB257E83B800FC2964 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3570189C257E83B600FC2964 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 357018A3257E83B600FC2964;
+			remoteInfo = EarthQuakeListApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		357018A4257E83B600FC2964 /* EarthQuakeListApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EarthQuakeListApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		357018A7257E83B600FC2964 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		357018B0257E83B800FC2964 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		357018B3257E83B800FC2964 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		357018B5257E83B800FC2964 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		357018BA257E83B800FC2964 /* EarthQuakeListAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EarthQuakeListAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		357018BE257E83B800FC2964 /* EarthQuakeListAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthQuakeListAppTests.swift; sourceTree = "<group>"; };
+		357018C0257E83B800FC2964 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		357018A1257E83B600FC2964 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		357018B7257E83B800FC2964 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3570189B257E83B600FC2964 = {
+			isa = PBXGroup;
+			children = (
+				357018A6257E83B600FC2964 /* EarthQuakeListApp */,
+				357018BD257E83B800FC2964 /* EarthQuakeListAppTests */,
+				357018A5257E83B600FC2964 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		357018A5257E83B600FC2964 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				357018A4257E83B600FC2964 /* EarthQuakeListApp.app */,
+				357018BA257E83B800FC2964 /* EarthQuakeListAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		357018A6257E83B600FC2964 /* EarthQuakeListApp */ = {
+			isa = PBXGroup;
+			children = (
+				357018CB257E845500FC2964 /* View */,
+				357018CA257E844800FC2964 /* ViewModel */,
+				357018C9257E843E00FC2964 /* Model */,
+				357018A7257E83B600FC2964 /* AppDelegate.swift */,
+				357018B0257E83B800FC2964 /* Assets.xcassets */,
+				357018B2257E83B800FC2964 /* LaunchScreen.storyboard */,
+				357018B5257E83B800FC2964 /* Info.plist */,
+			);
+			path = EarthQuakeListApp;
+			sourceTree = "<group>";
+		};
+		357018BD257E83B800FC2964 /* EarthQuakeListAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				357018BE257E83B800FC2964 /* EarthQuakeListAppTests.swift */,
+				357018C0257E83B800FC2964 /* Info.plist */,
+			);
+			path = EarthQuakeListAppTests;
+			sourceTree = "<group>";
+		};
+		357018C9257E843E00FC2964 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		357018CA257E844800FC2964 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		357018CB257E845500FC2964 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		357018A3257E83B600FC2964 /* EarthQuakeListApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 357018C3257E83B800FC2964 /* Build configuration list for PBXNativeTarget "EarthQuakeListApp" */;
+			buildPhases = (
+				357018A0257E83B600FC2964 /* Sources */,
+				357018A1257E83B600FC2964 /* Frameworks */,
+				357018A2257E83B600FC2964 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EarthQuakeListApp;
+			productName = EarthQuakeListApp;
+			productReference = 357018A4257E83B600FC2964 /* EarthQuakeListApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		357018B9257E83B800FC2964 /* EarthQuakeListAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 357018C6257E83B800FC2964 /* Build configuration list for PBXNativeTarget "EarthQuakeListAppTests" */;
+			buildPhases = (
+				357018B6257E83B800FC2964 /* Sources */,
+				357018B7257E83B800FC2964 /* Frameworks */,
+				357018B8257E83B800FC2964 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				357018BC257E83B800FC2964 /* PBXTargetDependency */,
+			);
+			name = EarthQuakeListAppTests;
+			productName = EarthQuakeListAppTests;
+			productReference = 357018BA257E83B800FC2964 /* EarthQuakeListAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3570189C257E83B600FC2964 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Enkhjargal Gansukh";
+				TargetAttributes = {
+					357018A3257E83B600FC2964 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					357018B9257E83B800FC2964 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 357018A3257E83B600FC2964;
+					};
+				};
+			};
+			buildConfigurationList = 3570189F257E83B600FC2964 /* Build configuration list for PBXProject "EarthQuakeListApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3570189B257E83B600FC2964;
+			productRefGroup = 357018A5257E83B600FC2964 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				357018A3257E83B600FC2964 /* EarthQuakeListApp */,
+				357018B9257E83B800FC2964 /* EarthQuakeListAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		357018A2257E83B600FC2964 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				357018B4257E83B800FC2964 /* LaunchScreen.storyboard in Resources */,
+				357018B1257E83B800FC2964 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		357018B8257E83B800FC2964 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		357018A0257E83B600FC2964 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				357018A8257E83B600FC2964 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		357018B6257E83B800FC2964 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				357018BF257E83B800FC2964 /* EarthQuakeListAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		357018BC257E83B800FC2964 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 357018A3257E83B600FC2964 /* EarthQuakeListApp */;
+			targetProxy = 357018BB257E83B800FC2964 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		357018B2257E83B800FC2964 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				357018B3257E83B800FC2964 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		357018C1257E83B800FC2964 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		357018C2257E83B800FC2964 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		357018C4257E83B800FC2964 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 33N4W7X39J;
+				INFOPLIST_FILE = EarthQuakeListApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.enkhjargal.EarthQuakeListApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		357018C5257E83B800FC2964 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 33N4W7X39J;
+				INFOPLIST_FILE = EarthQuakeListApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.enkhjargal.EarthQuakeListApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		357018C7257E83B800FC2964 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 33N4W7X39J;
+				INFOPLIST_FILE = EarthQuakeListAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.enkhjargal.EarthQuakeListAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EarthQuakeListApp.app/EarthQuakeListApp";
+			};
+			name = Debug;
+		};
+		357018C8257E83B800FC2964 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 33N4W7X39J;
+				INFOPLIST_FILE = EarthQuakeListAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.enkhjargal.EarthQuakeListAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EarthQuakeListApp.app/EarthQuakeListApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3570189F257E83B600FC2964 /* Build configuration list for PBXProject "EarthQuakeListApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				357018C1257E83B800FC2964 /* Debug */,
+				357018C2257E83B800FC2964 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		357018C3257E83B800FC2964 /* Build configuration list for PBXNativeTarget "EarthQuakeListApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				357018C4257E83B800FC2964 /* Debug */,
+				357018C5257E83B800FC2964 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		357018C6257E83B800FC2964 /* Build configuration list for PBXNativeTarget "EarthQuakeListAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				357018C7257E83B800FC2964 /* Debug */,
+				357018C8257E83B800FC2964 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3570189C257E83B600FC2964 /* Project object */;
+}
