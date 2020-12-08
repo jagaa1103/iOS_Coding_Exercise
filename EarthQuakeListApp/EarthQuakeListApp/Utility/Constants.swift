@@ -11,9 +11,22 @@ import Foundation
 struct Constants {
     
     static func getFormattedURL() -> String {
+//        let url = "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&latitude=33.097582&longitude=-96.820382&maxradiuskm=300"
         let url = "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson"
         let dates = Dates()
         return String(format: "%@&%@", url, dates.getFormattedDate())
+    }
+    
+    static func formattedTime(dateNum: Int) -> String {
+        let timeInterval = TimeInterval(dateNum / 1000)
+        let date = Date(timeIntervalSince1970: timeInterval)
+        let dateFormatter = DateFormatter()
+        dateFormatter.locale = Locale(identifier: "en_US")
+        dateFormatter.timeStyle = DateFormatter.Style.medium
+        dateFormatter.dateStyle = DateFormatter.Style.medium
+        dateFormatter.timeZone = .current
+        dateFormatter.dateFormat = "yyyy-MM-dd"
+        return dateFormatter.string(from: date)
     }
 }
 
@@ -33,6 +46,5 @@ struct Dates {
         let previous = dateFormatter.string(from: prev)
         return "&starttime=\(previous)&endtime=\(current)"
     }
-    
 }
 
